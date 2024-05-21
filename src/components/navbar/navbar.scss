@@ -1,36 +1,56 @@
-/* src/Navbar.css */
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #333;
+    background-color: #d71313;
     padding: 1rem;
-  }
-  
-  .navbar-brand a {
+    align-items: center;
+}
+
+
+input {
+    padding: 15px 400px 15px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 30px;
+    width: 200px;
+    transition: width 0.3s ease;
+}
+
+img{
+    width: 1500px;
+    margin-top: 10px;
+}
+
+input:focus {
+    width: 300px;
+    outline: none;
+}
+
+.navbar-brand a {
     color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
-  }
-  
-  .navbar-nav {
+}
+
+.navbar-nav {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-  }
-  
-  .nav-item {
+    align-items: center;
+}
+
+.nav-item {
     margin-left: 1rem;
-  }
-  
-  .nav-item a {
+}
+
+.nav-item a {
     color: #fff;
     text-decoration: none;
     font-size: 1.1rem;
-  }
-  
-  .nav-item a:hover {
+}
+
+.nav-item a:hover {
     color: #ddd;
-  }
-  
+}
+
